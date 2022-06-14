@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+/**
+ * main - execution begins here
+ *
+ * Return: Always 0
+ */
+int main(void)
+{
+printf("size of a char: %lu byte(s)\nsize of an int: %lu byte(s)\nsize of a long int: %lu byte(s)\nsize of a long long int: %lu byte(s)\nsize of a float: %lu byte(s)\n", sizeof(char), sizeof(int), sizeof(long), sizeof(long long), sizeof(float));
+}
