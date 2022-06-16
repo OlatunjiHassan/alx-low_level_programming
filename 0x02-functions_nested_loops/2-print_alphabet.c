@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *  print_alphabet - execution begins here
+ *  main - execution begins here
  *
- *  Return: void
+ *  Return: Always 0
  */
-void print_alphabet()
+int main(void)
 {
 	char alphabet;
 
@@ -16,5 +16,5 @@ void print_alphabet()
 		alphabet++;
 	}
 	putchar(10);
-	return;
+	return (0);
 }
