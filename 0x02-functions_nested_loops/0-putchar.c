@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-#include "_putchar.h"
+
 
 /**
  *  main - proper execution starts here
@@ -17,8 +17,8 @@ int main(void)
 
 	for (i = 0; i < 8; i++)
 	{
-		_putchar(text[i]);
+		putchar(text[i]);
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
