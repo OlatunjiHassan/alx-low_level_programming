@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include "main.h"
+#include "_putchar.h"
+
 /**
- * main - prints "_putchar"
+ *  main - proper execution starts here
  *
- * Description: prints "_putchar"
+ * @void: no return
  *
- * Return: it returns no value so void
+ *  return - 0 (success)
  */
+
 int main(void)
 {
 	char text[9] = "_putchar";
@@ -17,6 +20,5 @@ int main(void)
 		_putchar(text[i]);
 	}
 	_putchar('\n');
-
 	return (0);
 }
