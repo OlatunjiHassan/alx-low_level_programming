@@ -2,13 +2,7 @@
 
 int main(void)
 {
-	char vik;
-
-	for (vik = "a"; vik <= "z"; vik++)
-	{
-		putchar(vik);
-	}
-	putchar('\n');
-	return 0;
+	int ab = 17228 % 10;
+	printf("%d", ab);
 }
 
